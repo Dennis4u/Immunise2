@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Polio"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="150dp"
+
+        android:layout_marginBottom="40dp"
+        android:textColor="#172646"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="393dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="154dp"
+        android:layout_height="63dp"
+        android:layout_marginLeft="110dp"
+        android:text="Kick Polio Away."
+        android:textAlignment="center"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="269dp" />
+    <Button
+        android:id="@+id/thirdButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Immunie Type"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

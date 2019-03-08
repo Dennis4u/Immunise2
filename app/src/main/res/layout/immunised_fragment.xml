@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="154dp"
+        android:layout_height="74dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="100dp"
+        android:text="38 kids"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="269dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="It's Our Kids Right"
+        android:layout_marginLeft="80dp"
+        android:layout_marginBottom="40dp"
+        android:textColor="#172646"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="393dp" />
+
+
+    <Button
+        android:id="@+id/secondButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Immunised Number"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

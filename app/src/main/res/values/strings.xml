@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My ImmunisationApp</string>
+    <string-array name="Menu_array">
+        <item>Register Patient</item>
+        <item>Send Notification</item>
+        <item>Send Messages</item>
+        <item>NextImmune Alarm</item>
+        <item>Send Email</item>
+        <item>Call</item>
+
+    </string-array>
+</resources>

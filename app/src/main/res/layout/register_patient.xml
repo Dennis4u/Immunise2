@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:background="#ff00"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    >
+
+    <TextView
+        android:text="Register Patient"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Enter FName"
+        android:textColorHint="#fff"
+        android:ems="10"
+        android:layout_below="@+id/textView"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editFName"
+        />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Enter LName"
+        android:textColorHint="#fff"
+        android:ems="10"
+        android:layout_below="@+id/textView"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editLName"
+        />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Enter Village"
+        android:textColorHint="#fff"
+        android:ems="10"
+        android:layout_below="@+id/textView"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editName"
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="HealthCenter"
+        android:textColorHint="#fff"
+        android:ems="10"
+        android:layout_below="@+id/editName"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editEmail"
+        />
+
+    <EditText
+        android:id="@+id/editPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your phonenumber"
+        android:textColorHint="#fff"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Your password"
+        android:textColorHint="#fff"
+        android:ems="10"
+        android:layout_below="@+id/editEmail"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editPassword"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonRegister"
+        android:background="#ff0"
+        android:layout_below="@+id/editPassword"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_marginTop="20dp"
+        android:text="Register From here "/>
+
+</LinearLayout>
