@@ -33,7 +33,9 @@
         <activity android:name=".DashboardActivity">
 
         </activity>
-        <activity android:name=".MyMenuActivity">
+        <activity android:name=".MyMenuActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar">
 
         </activity>
         <activity android:name=".Notifier">
@@ -48,6 +50,14 @@
         <activity
             android:name=".Alarm"
             android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:parentActivityName=".MyMenuActivity" />
+        <activity
+            android:name=".SettingsActivity2"
+            android:label="@string/title_activity_settings2">
 
         </activity>
         <service
