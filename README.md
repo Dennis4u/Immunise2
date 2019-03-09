@@ -29,6 +29,8 @@ The main difference between notification in android 6 and 9 is that in Android 8
 
 While on devices running Android 7.1 (API level 25) and lower, users can manage notifications on a per-app basis only (effectively each app only has one channel on Android 7.1 and lower).
 
+Instant messaging is an online chat that offers real-time text transmission over the Internet. we created a group chat for our users to be able to interact with medical practitioners. It uses Firebase's real-time database to store the group chat messages.
+
 Call and SMS
 This allows individuals to make call and send message using the App. The design was made on the XML file while the action for the call button was implemented from the sendmessage java activity using the OnClickListener method. For the App to have access to the individuals phone contacts and to allow phone call, permission to read contacts and call phone was passed on the Manifest file. 
 
