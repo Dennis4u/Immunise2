@@ -95,6 +95,10 @@ public class MyMenuActivity extends ListActivity {
             Intent intent5=new Intent(getBaseContext(),SendMessage.class);
             startActivity(intent5);
         }
+        else if(position==6){
+            Intent intent6=new Intent(getBaseContext(),Chat.class);
+            startActivity(intent6);
+        }
         super.onListItemClick(l, v, position, id);
     }
 

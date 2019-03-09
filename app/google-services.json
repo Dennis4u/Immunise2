@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "823907960654",
+    "firebase_url": "https://myimmunisationapp-9c554.firebaseio.com",
+    "project_id": "myimmunisationapp-9c554",
+    "storage_bucket": "myimmunisationapp-9c554.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823907960654:android:0bc3cdaefd9a3982",
+        "android_client_info": {
+          "package_name": "com.example.myimmunisationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "823907960654-hfdbkutut1jno2e07c5l7r6po73rpkdk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myimmunisationapp",
+            "certificate_hash": "bd22f88b032f7f6da0d2274970a981b34f9a38f2"
+          }
+        },
+        {
+          "client_id": "823907960654-e5vcslff44s5mgj2a69s5hmflcd4m50q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWwC6ita-paPzzQZPmveINtsI3wcvD2Hc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "823907960654-e5vcslff44s5mgj2a69s5hmflcd4m50q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

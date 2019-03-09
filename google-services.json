@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "299912451970",
+    "firebase_url": "https://myimmunisationapp.firebaseio.com",
+    "project_id": "myimmunisationapp",
+    "storage_bucket": "myimmunisationapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299912451970:android:0bc3cdaefd9a3982",
+        "android_client_info": {
+          "package_name": "com.example.myimmunisationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299912451970-3kt2hqh7mjsc7qsshnt6hctqnaqahlit.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5KZAuWBmgmdexQx_kfFQfY64AjToUUE8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
